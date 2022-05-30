@@ -39,7 +39,6 @@ public class Parser {
 
             doc.getDocumentElement().normalize();
             var patientsList = doc.getElementsByTagName("patient");
-            var length = patientsList.getLength();
 
             List<Patient> patientList = new ArrayList<>();
             for (int i = 0; i < patientsList.getLength(); i++) {
