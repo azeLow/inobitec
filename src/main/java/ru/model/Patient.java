@@ -73,6 +73,6 @@ public class Patient {
     @Override
     public String toString() {
         return
-                format("%20s%20s%16s%4d%8s%16s", lastName, firstName , middleName, age, gender, phone ) ;
+                format("%15s%15s%15s%4d%8s%18s", lastName, firstName , middleName, age, gender, phone ) ;
     }
 }

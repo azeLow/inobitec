@@ -22,7 +22,7 @@ public class Parser {
 
     public static void parse(String path, String fieldName) {
 
-        if(path!=null || path.length()==0) {
+        if(path == null || path.length()==0) {
             System.out.println("Параметр запроса пуст");
             return;
         }
