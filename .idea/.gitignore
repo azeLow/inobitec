@@ -21,4 +21,4 @@
 
 # Maven
 log/
-target/
+target/*
